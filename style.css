@@ -37,6 +37,7 @@ html {
 
 .margin-b-1 { margin-bottom: 1rem; }
 .margin-b-2 { margin-bottom: 2rem; }
+.margin-t-2 { margin-top: 2rem; }
 
 .bg-rust  { background-color: #d3b4a2; }
 .bg-green { background-color: #9b9b81; }
@@ -180,6 +181,48 @@ footer a:hover {
 
 .landscape {
     padding-bottom: 60%;
+}
+
+.right-arrow{
+    max-width: 2rem;
+    margin-left: 1rem;
+}
+
+/* Contact Form */
+form input,
+form textarea {
+ 	width: 100%;
+ 	margin: 0.5rem 0;
+	padding: 0.5rem;
+ 	border: 2px solid #a2745c;
+ 	outline: none;
+ 	font-family: inherit;
+ 	font-size: 0.9rem;
+}
+
+form input:focus,
+form textarea:focus {
+ 	border-color: #9b9b81;
+}
+
+textarea {
+ 	min-height: 4rem;
+}
+
+form label {
+	margin-top: 1rem;
+ 	display: block;
+ 	color: #a2745c;
+ 	font-weight: bold;
+}
+
+form .button {
+   	border: 2px solid #a2745c;
+   	background: none;
+   	color: #a2745c;
+   	font-weight: bold;
+   	padding: 0.5rem 2rem;
+   	margin-top: 1rem;
 }
 
 /* Responsive Video */
